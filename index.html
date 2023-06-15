@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HangMan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>hangman</h2>
+        <span>word from: <span class="wordFrom"></span></span>
+      </header>
+      <div class="gameBox">
+        <div class="hang">
+          <div class="body test">
+            <span class="bottom"></span>
+            <span class="column"></span>
+            <span class="hold"></span>
+            <span class="rope"></span>
+            <span class="face"></span>
+            <span class="stomach"></span>
+            <span class="hand">
+              <div class="one"></div>
+              <div class="two"></div>
+            </span>
+            <span class="leg">
+              <div class="one"></div>
+              <div class="two"></div>
+            </span>
+          </div>
+        </div>
+        <div class="letters"></div>
+      </div>
+      <div class="wordBox"></div>
+    </div>
+    <div class="beforeLose"></div>
+    <div class="lose">game over</div>
+    <div class="win">you won</div>
+    <audio
+      id="success"
+      src="short-success-sound-glockenspiel-treasure-video-game-6346-[AudioTrimmer.com].mp3"
+      preload="auto"
+    ></audio>
+    <audio
+      id="fail"
+      src="puzzle-error-47187.mp3"
+      preload="auto"
+    ></audio>
+  </body>
+</html>
+<script src="main.js"></script>
