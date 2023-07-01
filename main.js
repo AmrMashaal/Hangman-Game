@@ -156,9 +156,9 @@ let objWords = {
     "neymar jr.",
     "kylian mbappé",
     "luka modrić",
-    "virgil van dijk",
+    "virgil vandijk",
     "sadio mané",
-    "kevin de bruyne",
+    "kevin debruyne",
     "robert lewandowski",
     "sergio agüero",
     "manuel neuer",
@@ -220,7 +220,6 @@ function isIt(e) {
   if (wrongChoose === 8) {
     lose.classList.add("loseCome");
     beforeLose.classList.add("showBeforeLose");
-    document.body.style.overflow = "hidden";
   }
 }
 
