@@ -256,6 +256,9 @@ h2 {
   .letterColor {
     cursor: pointer;
   }
+  .fa-rotate-right{
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 720px) {
@@ -324,6 +327,7 @@ h2 {
   color: white;
   width: 38px;
   height: 51px;
+  user-select: none;
 }
 
 .selected {
@@ -409,6 +413,13 @@ h2 {
   transition: 0.3s;
   color: white;
   user-select: none;
+}
+
+.fa-rotate-right {
+  color: white;
+  position: absolute;
+  left: 35px;
+  bottom: 35px;
 }
 
 .showWin {
