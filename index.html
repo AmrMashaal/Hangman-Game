@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HangMan</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,18 +45,14 @@
       <div class="wordBox"></div>
     </div>
     <div class="beforeLose"></div>
-    <div class="lose">game over</div>
-    <div class="win">you won</div>
+    <div class="lose">game over <i class="fa-solid fa-rotate-right refresh"></i></div>
+    <div class="win">you won <i class="fa-solid fa-rotate-right refresh"></i></div>
     <audio
       id="success"
       src="short-success-sound-glockenspiel-treasure-video-game-6346-[AudioTrimmer.com].mp3"
       preload="auto"
     ></audio>
-    <audio
-      id="fail"
-      src="puzzle-error-47187.mp3"
-      preload="auto"
-    ></audio>
+    <audio id="fail" src="puzzle-error-47187.mp3" preload="auto"></audio>
   </body>
 </html>
 <script src="main.js"></script>
