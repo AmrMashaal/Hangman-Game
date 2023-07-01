@@ -224,3 +224,9 @@ function isIt(e) {
 }
 
 randomSelect();
+
+let refresh = document.querySelector(".fa-rotate-right");
+
+refresh.onclick = function () {
+  window.location.reload();
+};
